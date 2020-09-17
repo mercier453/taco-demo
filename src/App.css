@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+.App {
+  width: 80%;
+  margin: 0 auto;
+}
+.App-header form {
+}
+.App-header form input[type="text"] {
+  width: 60%;
+  padding: .25em .5em;
+  margin-right: 1em;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.image img{
+  height: 100px;
+  width: 100px;
+}
+#returnedList {
+  width: 100%;
+}
+#returnedList ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+#returnedList ul li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 1em 0;
+  padding: .25em .5em;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  border-radius: 4px;
+  cursor: pointer;
+}
+#returnedList ul li .details {
+  margin-left: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+#returnedList ul li .details h2 {
+  font-size: 1.2em;
+  margin: 0;
+}
+#returnedList ul li .details .address {
+  color: #333333;
+}
+.sorting {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 100%;
+  margin: .5em 0;
+  padding: .5em 0;
+  border-bottom: 1px solid #DDD;
+}
+#businessDetails {
+  width: 45%;
+  margin: 0 1em;
+  padding: 1em;
+}
